@@ -1,0 +1,5 @@
+N=11_932
+
+bearish 1789
+bullish 2398
+neutral 7744
