@@ -1,0 +1,30 @@
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_setup.py:_flush():77] Current SDK version is 0.17.8
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_setup.py:_flush():77] Configure stats pid to 38956
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_setup.py:_flush():77] Loading settings from /Users/jinseopsong/.config/wandb/settings
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_setup.py:_flush():77] Loading settings from /Users/jinseopsong/coding/StockTrading_based_on_financialnews/src/wandb/settings
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_setup.py:_flush():77] Loading settings from environment variables: {}
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_setup.py:_flush():77] Applying setup settings: {'_disable_service': False}
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_setup.py:_flush():77] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_setup.py:_flush():77] Applying login settings: {}
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_init.py:_log_setup():524] Logging user logs to /Users/jinseopsong/coding/StockTrading_based_on_financialnews/src/wandb/run-20250305_094956-7ea0fby9/logs/debug.log
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/jinseopsong/coding/StockTrading_based_on_financialnews/src/wandb/run-20250305_094956-7ea0fby9/logs/debug-internal.log
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x106d997c0>
+2025-03-05 09:49:56,207 INFO    MainThread:38956 [wandb_init.py:init():607] calling init triggers
+2025-03-05 09:49:56,208 INFO    MainThread:38956 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {}
+2025-03-05 09:49:56,208 INFO    MainThread:38956 [wandb_init.py:init():657] starting backend
+2025-03-05 09:49:56,208 INFO    MainThread:38956 [wandb_init.py:init():661] setting up manager
+2025-03-05 09:49:56,210 INFO    MainThread:38956 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-03-05 09:49:56,213 INFO    MainThread:38956 [wandb_init.py:init():669] backend started and connected
+2025-03-05 09:49:56,220 INFO    MainThread:38956 [wandb_run.py:_label_probe_notebook():1344] probe notebook
+2025-03-05 09:49:56,221 INFO    MainThread:38956 [wandb_run.py:_label_probe_notebook():1354] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-03-05 09:49:56,221 INFO    MainThread:38956 [wandb_init.py:init():767] updated telemetry
+2025-03-05 09:49:56,255 INFO    MainThread:38956 [wandb_init.py:init():800] communicating run to backend with 90.0 second timeout
+2025-03-05 09:49:56,384 ERROR   MainThread:38956 [wandb_init.py:init():826] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2025-03-05 09:49:56,384 ERROR   MainThread:38956 [wandb_init.py:init():1238] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/jinseopsong/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_init.py", line 1228, in init
+    return wi.init()
+  File "/Users/jinseopsong/Library/Python/3.9/lib/python/site-packages/wandb/sdk/wandb_init.py", line 832, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
