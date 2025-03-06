@@ -22,7 +22,6 @@ class FinanceNews:
             raise ValueError(f"expected positive/negative/neutral, git {txt}")
 
         df['label'] = df['label'].apply(lambda x : t2l(x))
-        
         train, test = train_test_split(df,train_size=0.7,test_size=0.3,random_state=42)
 
         return train, test

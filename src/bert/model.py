@@ -8,6 +8,8 @@ class Finbert(nn.Module):
         self.finbert = BertForSequenceClassification.from_pretrained('yiyanghkust/finbert-tone',num_labels=3)
         self.tokenizer = BertTokenizer.from_pretrained('yiyanghkust/finbert-tone')
         self.nlp = pipeline("sentiment-analysis", model=self.finbert, tokenizer=self.tokenizer)
+        
+        # need to implement another if use customly-trained tokenizer
     def infernece(self, text : list[str], enablePrint=False):
         '''
         sentences = ["there is a shortage of capital, and we need extra financing",  

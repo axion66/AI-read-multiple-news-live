@@ -2,3 +2,8 @@
 *.env
 */*.env
 */.env
+*.pt
+*/*.pt
+
+*/wandb/*
+src/wandb/*

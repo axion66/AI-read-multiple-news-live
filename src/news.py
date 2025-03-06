@@ -10,6 +10,10 @@ import os
 
 def news1(company_name, n=10, duration=14):
     """
+        -> Deprecated as its searching ability isn't good (not-accurate) (see autnews/news_component/app.py )
+        -> Deprecated as its searching ability isn't good (not-accurate) (see autnews/news_component/app.py )
+        -> Deprecated as its searching ability isn't good (not-accurate) (see autnews/news_component/app.py )
+
         company_name : Apple, Meta, etc
         n: Number of articles getting.
         duration: number of past {duration} days will be collected. duration=14 means getting news from the past 14 days.
@@ -40,30 +44,3 @@ def news1(company_name, n=10, duration=14):
     return text_infos
 
 
-
-
-from pygooglenews import GoogleNews
-import pandas as pd
-from datetime import date, timedelta
-
-def news2(company_name):
-    today = date.today()
-    yesterday = today - timedelta(days=1)
-    now = today.strftime("%m/%d/%Y")
-    yesterday = yesterday.strftime("%m/%d/%Y")
-
-    googlenews = GoogleNews(start=yesterday, end=now)
-    googlenews.search(company_name)
-    result = googlenews.result()
-    df = pd.DataFrame(result)
-    return df
-
-if __name__ == '__main__':
-    company_name = input("Please provide the name of the Company or a Ticker: ")
-    if company_name:
-        print(f"Searching for and analyzing {company_name}, please be patient, it might take a while...")
-        news_df = news2(company_name)
-        print(news_df)
-    else:
-        print("No company name provided.")
-        
