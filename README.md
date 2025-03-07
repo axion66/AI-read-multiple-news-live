@@ -3,7 +3,8 @@
 ![Demo Image](display/demo_img.png)
 ![Demo Image2](display/demo_img2.png)
 
-[![Demo Video](demo_image.png)](display/demo_video.mov)
+[![Demo Video](demo_image.png)](https://github.com/user-attachments/assets/97cf27e6-27e9-40d3-9951-ffe05de9c1b2)
+https://github.com/user-attachments/assets/97cf27e6-27e9-40d3-9951-ffe05de9c1b2
 
 Auto News is a web-based platform that allows users to enter a company name and receive real-time financial news. The website scrapes the latest articles from the web, evaluates their sentiment, and provides a final investment recommendation based on sentiment analysis.
 
@@ -48,4 +49,7 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ## License
 This project is licensed under the **MIT License**. I'm happy to share for real.
+
+
+
 
