@@ -1,6 +1,7 @@
 # Auto News
 
 ![Demo Image](display/demo_img.png)
+![Demo Image2](display/demo_img2.png)
 
 [![Demo Video](demo_image.png)](display/demo_video.mov)
 
