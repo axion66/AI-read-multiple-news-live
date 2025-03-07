@@ -72,7 +72,7 @@ function App() {
               ? "Buy!"
               : results.average_sentiment.average === "Negative"
               ? "Sell!"
-              : "Hold!"
+              : "Uncertain!"
           ) : (
             " "
           )}
