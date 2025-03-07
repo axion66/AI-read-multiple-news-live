@@ -1,10 +1,4 @@
-python-dotenv
-transformer
-scikit-learn
-scipy
-seaborn
-torch
-matplotlib
-numpy
-pandasf
 flask
+googlesearch
+transformers
+torch
